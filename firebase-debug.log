@@ -1,0 +1,95 @@
+[debug] [2020-10-21T02:10:21.785Z] ----------------------------------------------------------------------
+[debug] [2020-10-21T02:10:21.787Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Adrito\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2020-10-21T02:10:21.787Z] CLI Version:   8.13.0
+[debug] [2020-10-21T02:10:21.788Z] Platform:      win32
+[debug] [2020-10-21T02:10:21.788Z] Node Version:  v12.18.2
+[debug] [2020-10-21T02:10:21.789Z] Time:          Wed Oct 21 2020 08:10:21 GMT+0600 (Bangladesh Standard Time)
+[debug] [2020-10-21T02:10:21.789Z] ----------------------------------------------------------------------
+[debug] [2020-10-21T02:10:21.789Z] 
+[debug] [2020-10-21T02:10:21.795Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-10-21T02:10:21.796Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  F:\WebDevelopment\creative-agency-client-master
+
+Before we get started, keep in mind:
+
+  * You are initializing in an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, using creative-agency-ea3df. 
+[debug] [2020-10-21T02:10:38.882Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/creative-agency-ea3df  
+ 
+[debug] [2020-10-21T02:10:39.334Z] <<< HTTP RESPONSE 403 {"vary":"X-Origin, Referer, Origin,Accept-Encoding","content-type":"application/json; charset=UTF-8","date":"Wed, 21 Oct 2020 02:10:21 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-10-21T02:10:39.335Z] <<< HTTP RESPONSE BODY {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2020-10-21T02:10:39.340Z] HTTP Error: 403, The caller does not have permission
+[debug] [2020-10-21T02:10:39.535Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at module.exports (C:\Users\Adrito\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:38:12)
+    at Request._callback (C:\Users\Adrito\AppData\Roaming\npm\node_modules\firebase-tools\lib\api.js:41:35)
+    at Request.self.callback (C:\Users\Adrito\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:315:20)
+    at Request.EventEmitter.emit (domain.js:482:12)
+    at Request.<anonymous> (C:\Users\Adrito\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:1154:10)
+    at Request.emit (events.js:315:20)
+    at Request.EventEmitter.emit (domain.js:482:12)
+    at IncomingMessage.<anonymous> (C:\Users\Adrito\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:1076:12)
+    at Object.onceWrapper (events.js:421:28)
+    at IncomingMessage.emit (events.js:327:22)
+    at IncomingMessage.EventEmitter.emit (domain.js:482:12)
+    at endReadableNT (_stream_readable.js:1221:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+[error] 
+[error] Error: Failed to get Firebase project creative-agency-ea3df. Please make sure the project exists and your account has permission to access it.
+[debug] [2020-10-21T02:15:27.502Z] ----------------------------------------------------------------------
+[debug] [2020-10-21T02:15:27.505Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Adrito\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2020-10-21T02:15:27.505Z] CLI Version:   8.13.0
+[debug] [2020-10-21T02:15:27.505Z] Platform:      win32
+[debug] [2020-10-21T02:15:27.505Z] Node Version:  v12.18.2
+[debug] [2020-10-21T02:15:27.506Z] Time:          Wed Oct 21 2020 08:15:27 GMT+0600 (Bangladesh Standard Time)
+[debug] [2020-10-21T02:15:27.507Z] ----------------------------------------------------------------------
+[debug] [2020-10-21T02:15:27.507Z] 
+[debug] [2020-10-21T02:15:27.515Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-10-21T02:15:27.515Z] > authorizing via signed-in user
+[debug] [2020-10-21T02:15:27.516Z] [iam] checking project creative-agency-ea3df for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2020-10-21T02:15:27.519Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/creative-agency-ea3df:testIamPermissions  
+ {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2020-10-21T02:15:28.951Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Wed, 21 Oct 2020 02:15:11 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=1198","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-10-21T02:15:28.955Z] [iam] error while checking permissions, command may fail: FirebaseError: Authorization failed. This account is missing the following required permissions on project creative-agency-ea3df:
+
+  firebase.projects.get
+  firebasehosting.sites.update
+[debug] [2020-10-21T02:15:28.958Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/creative-agency-ea3df  
+ 
+[debug] [2020-10-21T02:15:29.425Z] <<< HTTP RESPONSE 403 {"vary":"X-Origin, Referer, Origin,Accept-Encoding","content-type":"application/json; charset=UTF-8","date":"Wed, 21 Oct 2020 02:15:11 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-10-21T02:15:29.426Z] <<< HTTP RESPONSE BODY {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2020-10-21T02:15:29.429Z] HTTP Error: 403, The caller does not have permission
+[debug] [2020-10-21T02:15:29.840Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at module.exports (C:\Users\Adrito\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:38:12)
+    at Request._callback (C:\Users\Adrito\AppData\Roaming\npm\node_modules\firebase-tools\lib\api.js:41:35)
+    at Request.self.callback (C:\Users\Adrito\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:315:20)
+    at Request.EventEmitter.emit (domain.js:482:12)
+    at Request.<anonymous> (C:\Users\Adrito\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:1154:10)
+    at Request.emit (events.js:315:20)
+    at Request.EventEmitter.emit (domain.js:482:12)
+    at IncomingMessage.<anonymous> (C:\Users\Adrito\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:1076:12)
+    at Object.onceWrapper (events.js:421:28)
+    at IncomingMessage.emit (events.js:327:22)
+    at IncomingMessage.EventEmitter.emit (domain.js:482:12)
+    at endReadableNT (_stream_readable.js:1221:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+[error] 
+[error] Error: Failed to get Firebase project creative-agency-ea3df. Please make sure the project exists and your account has permission to access it.

@@ -1,9 +1,9 @@
 const firebaseConfig = {
-  apiKey: "AIzaSyCXk_e6Lwq60KdOYYED2_GT1NO6MNBQ-6Y",
-  authDomain: "creative-agency-anwar.firebaseapp.com",
-  databaseURL: "https://creative-agency-anwar.firebaseio.com",
-  projectId: "creative-agency-anwar",
-  storageBucket: "creative-agency-anwar.appspot.com",
-  messagingSenderId: "205934771785",
-  appId: "1:205934771785:web:5305f2b51b901120108998"
+  apiKey: "AIzaSyAdzdhMJVw11fqDGCojvd-ZPn8RoiYLL-4",
+  authDomain: "noname-6be3f.firebaseapp.com",
+  databaseURL: "https://noname-6be3f.firebaseio.com",
+  projectId: "noname-6be3f",
+  storageBucket: "noname-6be3f.appspot.com",
+  messagingSenderId: "336501921836",
+  appId: "1:336501921836:web:b0d9e5a88f32fb568fd989"
 };
